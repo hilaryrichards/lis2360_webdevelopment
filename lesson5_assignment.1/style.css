@@ -1,0 +1,97 @@
+@charset "UTF-8";
+/* CSS Document created by Christy Chatmon, Spring 2019*/
+
+body {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	line-height: 1.5em;
+	color: #FFFFFF;
+	background-color: #FFFFFF;
+	padding: 0 50px;
+}
+
+/* basic text styles ----------------------------  */
+p, li, td {
+	letter-spacing: 0.4em;
+	color: #00AAFF;
+}
+h1 {
+	font-size: 25px;
+	padding: 5px 0;
+	font-variant: small-caps;
+	letter-spacing: .6em;
+	line-height: 1em;
+}
+h2 {
+	font-size: 22px;
+	padding: 7px;
+	font-variant: small-caps;
+	letter-spacing: 0.6em;
+	background-color: #00AAFF;
+}
+h3 {
+	font-size: 17px;
+	letter-spacing: 0.6em;
+	border-bottom-width: 1px;
+	border-bottom-style: inset;
+	border-bottom-color: #0CE8BA;
+	padding: 5px 0;
+	font-variant: small-caps;
+	font-style: italic;
+}
+
+/* link styles ---------------------------- */
+a:link {
+	font-weight: bold;
+	color: #0CE8BA;
+	text-decoration: none;
+}
+a:visited {
+	font-weight: bold;
+	color: #0CE8BA;
+	text-decoration: none;
+}
+a:hover {
+	color: #65FF7B;
+}
+
+/* list styles ----------------------------- */
+ul li {
+	list-style-image: url(images/star.png);
+	margin-left: 10px;
+}
+ol {
+	margin-left: 10px;
+}
+
+/* table styles -------------------------------------- */
+table {
+	border: solid #56FF7B 2px;
+}
+td {
+	padding: 6px;
+	border: solid #56FF7B 2px;
+}
+th {
+	font-weight: bold;
+	background-color: #FFFFFF;
+	text-align: center;
+	padding: 5px;
+	border: solid #56FF7B 5px;
+}
+
+/* border styles ------------------------------------ */
+hr {
+	border: solid #56FF7B 5px;
+}
+
+img {
+	border: solid #56FF7B 5px;
+
+}
+
+iframe {
+	border: solid #56FF7B 1px;
+	padding: 2px;
+	margin: 2px;
+}
